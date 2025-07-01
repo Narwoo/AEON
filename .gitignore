@@ -1,0 +1,9 @@
+# Python-spezifische Dateien
+__pycache__/
+*.pyc
+
+# Verknüpfungen ignorieren
+*.lnk
+
+# Eigenen Bilderordner ausschließen
+image/

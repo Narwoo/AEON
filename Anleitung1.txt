@@ -1,0 +1,45 @@
+##########################################################################################
+##
+##Wichtig wennn Ordner auf neues System kommt.
+##
+##
+##
+##########################################################################################
+## Schritt 1: Python auf deinem System installieren
+##########################################################################################
+	Dies ist der wichtigste Schritt. Wir installieren Python zentral auf deinem Computer.
+
+    Gehe zur offiziellen Python-Download-Seite: https://www.python.org/downloads/
+
+    Lade den empfohlenen Installer für Windows herunter (der große gelbe Button oben).
+
+    Starte die heruntergeladene .exe-Datei. Ein Installationsfenster erscheint.
+
+    WICHTIG: Setze unten im Fenster den Haken bei "Add Python to PATH". Das ist entscheidend für die einfache Bedienung später.
+
+    Klicke danach auf "Install Now" und folge den Anweisungen.
+	
+	
+##########################################################################################
+## Schritt 2: Bibliothek installieren
+##########################################################################################
+	Jetzt installieren wir die PyQt6-Bibliothek, die wir für die Benutzeroberfläche benötigen. 
+	Da Python jetzt dank des Hakens bei "PATH" von überall aus erreichbar ist, ist das ganz einfach.
+
+    Öffne die Kommandozeile (CMD oder PowerShell).
+
+    Gib einfach diesen Befehl ein und drücke Enter:
+    Bash
+
+    pip install PyQt6
+
+    Die Bibliothek wird nun automatisch an den richtigen Ort auf deinem System installiert.
+
+###########################################################################################
+Mit dieser Datei kannst du in Zukunft mit 
+
+pip install -r requirements.txt
+ 
+alle nötigen Pakete auf einmal installieren.
+
+############################################################################################
